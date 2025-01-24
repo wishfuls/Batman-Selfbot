@@ -25,7 +25,7 @@ def load_tokens(file_path='token.txt'):
 tokens = load_tokens()
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix='x', self_bot=True, intents=intents)
+bot = commands.Bot(command_prefix='!', self_bot=True, intents=intents)
 bot.remove_command('help')
 
 try:
